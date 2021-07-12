@@ -1,0 +1,138 @@
+
+
+body {
+    font-family: 'Mate SC', serif;
+    background-color: rgba(255, 255, 255, 0.548);
+    margin: 0 auto;
+   
+
+}
+
+h1 {
+    color: #20b2aa;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Mate SC', serif;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.footer {
+    color: rgba(160, 62, 5, 0.466);
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    overflow: hidden;
+}
+
+#calculator {
+    background-color: rgba(213, 248, 248, 0.548);
+    background-image: url(img/girl.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px;
+    width: 320px;
+    height: 520px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(129, 60, 3, 0.158), 0 12px 40px 0 rgba(0, 0, 0, 0.979);
+}
+
+#result {
+    height: 120px;
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+
+#output {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+#keyboard {
+    height: 400px;
+}
+
+.operator , .number, .empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.number {
+    background-color: rgba(255, 255, 255, .671);
+}
+
+.empty {
+    background-color: rgba(213, 248, 248, 0.062);
+}
+
+
+.operator {
+    background-color: rgba(155, 158, 155, 0.534);
+}
+.operator:active, .number:active {
+    font-size: 13px;
+}
+
+.operator:focus, .number:focus, .empty:focus {
+    outline: 0;
+}
+.number, .operator {
+    cursor: pointer;
+}
+
+button:nth-child(4) {
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: #ffa500;
+}
+
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: #f08080;
+}
+
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: #9477af;
+}
