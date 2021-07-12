@@ -29,13 +29,14 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
+     margin-top: 100px;
 }
 
 #container {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 105vh;
+    min-height: 65vh;
     overflow: hidden;
 }
 
