@@ -36,7 +36,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 105vh;
+    min-height: 75vh;
     overflow: hidden;
 }
 
